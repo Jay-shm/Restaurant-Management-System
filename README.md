@@ -1,6 +1,7 @@
-# Restaurant Management System
+# Restaurant Management System - DBMS / DMQP Project
 
-A comprehensive Restaurant Management System that includes features for managing orders, tables, and staff. The system provides an admin panel to update order statuses, hire and fire staff, and manage table availability.
+## Project Overview
+This project is a **Database Management System (DBMS)** or **DMQP** project designed for efficient restaurant management. It features an admin panel for managing orders, staff, and tables. Built with **PHP** and **MySQL**, it handles real-time order processing, staff management, and dynamic table allocation.
 
 ## Features
 
