@@ -1,0 +1,33 @@
+RMS/
+│
+├── css/                        # Folder for CSS files
+│   └── styles.css              # Main stylesheet for the website
+│
+│
+├── images/                     # Folder for images
+│   ├── logo.png                # Logo or brand image
+│   └── menu_items/             # Folder for menu item images (if any)
+│       ├── item1.jpg
+│       └── item2.jpg
+│
+├── includes/                   # Folder for reusable PHP files
+│   ├── navbar.php              # Navigation bar (included in all pages)
+│   └── database.php            # Database connection file
+│
+├── pages/                      # Folder for main PHP pages
+│   ├── login.php               # Login page
+│   ├── staff_menu.php          # Staff menu page
+│   ├── cart.php                # Cart page
+│   ├── order_summary.php        # Order summary page
+│   ├── admin.php               # Admin page
+│   └── hire_staff.php          # Page for hiring staff
+│   └── fire_staff.php          # Page for firing staff
+│
+├── process/                    # Folder for PHP scripts that handle form submissions
+│   ├── process_login.php       # Script for processing login
+│   ├── add_to_cart.php         # Script for adding items to the cart
+│   ├── finalize_order.php       # Script for finalizing orders
+│   └── manage_staff.php         # Script for managing staff (hire/fire)
+│
+├── .htaccess                   # Apache configuration file (optional)
+└── index.php                   # Homepage or landing page

@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Light background for contrast */
+    font-family: Arial, sans-serif;
+}
+
+.menu-container {
+    width: 80%; /* Set a width for the menu container */
+    max-width: 800px; /* Maximum width */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out; /* Add fade-in animation */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Darker text for better readability */
+}
+
+.menu-items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu-items th, .menu-items td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.menu-item:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.add-to-cart-btn {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.admin-actions {
+    margin-top: 20px;
+    text-align: center; /* Center admin actions */
+}
+
+.admin-actions a {
+    display: inline-block;
+    margin: 10px 5px;
+    color: #007bff; /* Bootstrap blue */
+    text-decoration: none;
+}
+
+.admin-actions a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
